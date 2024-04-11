@@ -52,7 +52,7 @@ pipeline {
         stage('CODE ANALYSIS with SONARQUBE') {
 
             environment {
-                scannerHome = tool 'sonar-pro'
+                scannerHome = tool 'mysonarscanner4'
             }
 
             steps {
